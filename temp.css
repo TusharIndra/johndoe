@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%; /* Make table full width */
+     /* Add border to table */
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Add border to table rows */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light gray header background */
+  }
+  
+  h1, h2, h3, h4 {
+    color: #333; /* Dark text color */
+  }
+  
+  a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    border: 1px solid #ccc; /* Light gray horizontal line */
+    margin: 20px 0;
+  }
+  
+  ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+  }
+  
+  /* Specific styles */
+  .img-container {
+    text-align: center;
+  }
+  
+  .bio p {
+    margin-top: 0;
+  }
+  
+  .skills-table th {
+    background-color: #f0f0f0; /* Light gray header background */
+  }
+  
+  .skills-table td {
+    text-align: center;
+  }
+  
+  .star-rating {
+    color: #f1c40f; /* Gold star color */
+  }
+  #img{
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;
+
+  }
+  
