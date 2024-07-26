@@ -1,69 +1,109 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>John Doe</title>
-  <link rel="stylesheet" href="temp.css"></link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLawyer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-
 <body>
-  <table cellspacing="20">
-    <td><img id ="img" src="https://static.vecteezy.com/system/resources/thumbnails/032/409/360/small/a-male-lawyer-stands-confidently-in-the-courtroom-a-portrait-capturing-his-professionalism-and-dedication-to-the-law-generative-ai-photo.jpg" alt="Tushar indra's Photo"></td>
-    <td><h1><a href="https://www.linkedin.com/company/john-doe/?originalSubdomain=uk" target="_blank">John Doe</a></h1>
-    <p><em>
-      <h4>Chief Auditor <br><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dictionary.com%2Fe%2Flawyer-vs-attorney%2F&psig=AOvVaw0bMNU9QHdej5Mt488ISsSz&ust=1722007901809000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCTqbzBwocDFQAAAAAdAAAAABAE" target="_blank">Lawyer By Profession</a></h3></em>
-    </p>
-    <p>
-      <h4>
-        You need protection I can help you!
-      </h4>
-    </p></td>
-  </table>
-
-  <hr size="1" noshade>
-  <h3>Education :</h3>
-  <ul>
-    <li>berkley-jr school</li>
-    <li>NYU</li>
-  </ul>
-  <hr>
-  <h3>Hobbies: </h3>
-  <ol>
-    <li>Robotics</li>
-    <li>Gaming</li>
-    <li>Reading</li>
-  </ol>
-  <hr>
-  <h3>Skills:</h3>
-  <table cellspacing="5">
-    <tr>
-      <td>C++</td>
-      <td>⭐⭐⭐⭐</td>
-      <td>Leadership</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Decision Making</td>
-      <td>⭐⭐⭐⭐</td>
-      <td>Photography</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Html</td>
-      <td>⭐</td>
-      <td>Robotics</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Cooking</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <footer style="text-align: center; background-color: rgb(243, 240, 223);">
-    <a href="https://www.saulgoodmanandassociates.com/">Contact us</a> 
-  </footer>
+    <header>
+        <h1>John doe</h1>
+        <p>Software Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <img src="My_Photo.jpg" alt="Your Photo" class="profile-photo">
+            <p>Hello! I'm John Doe, a passionate Software Developer with expertise in building modern web applications. I love coding and solving complex problems.</p>
+        </section>
+        <section id="skills" class="content-section">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <p>React</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-node"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-git-alt"></i>
+                    <p>Git</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-docker"></i>
+                    <p>Docker</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="content-section">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>Description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>Description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>Description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Four</h3>
+                <p>Description of the project.</p>
+            </div>
+        </section>
+        <section id="testimonials" class="content-section">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"John is a highly skilled developer with a keen eye for detail. He always delivers quality work on time."</p>
+                <span>- Jane Smith, CEO of TechCorp</span>
+            </div>
+            <div class="testimonial">
+                <p>"John's expertise in web development is outstanding. He is a great team player and a pleasure to work with."</p>
+                <span>- Mike Johnson, Project Manager at Web Solutions</span>
+            </div>
+        </section>
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+            <p><i class="fas fa-phone-alt"></i> Phone: +123 456 7890</p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/johndoe/">yourprofile</a></p>
+            <p><i class="fas fa-code"></i> LeetCode: <a href="https://leetcode.com/johndoe/">john.doe</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 John Doe</p>
+    </footer>
 </body>
-
 </html>
